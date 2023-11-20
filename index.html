@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/swiper-bundle.min.js"></script>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Bookly</title>
+</head>
+<body>
+
+    <!-- Início do header -->
+    <header class="header">
+        <div class="header__logo">
+            <a href="#">
+                <img class="header__logo__img" src="assets/com_verdinha.png" alt="">
+            </a>
+            <h1>bookly</h1>
+        </div>
+
+        <div class="header__container">
+            <a class="header__link" href="#">
+                <img src="assets/Compras.svg" alt="">
+            </a>
+            <a class="header__link" href="#">
+                <img src="assets/Usuario (1).svg" alt="">
+            </a>
+        </div>
+    </header>
+     
+    <!-- Barra de pesquisa -->
+    <section class="search__bar">
+        <input class="search__bar__input" type="search" placeholder="Pesquisa">
+    </section>
+    
+    <!-- Botões de tipo de conteúdo -->
+    <section class="content__type">
+        <button class="content__type__text">Livros</button>
+        <button class="content__type__text">Ebooks</button>
+        <button class="content__type__text">Revistas</button>
+    </section>
+
+    <!-- Nome da categoria -->
+    <div class="categorie">
+        <p class="categorie__text">Escolhidos para você</p>
+    </div>
+
+    <!-- Cards de livros -->
+    <section class="card__body">
+        <div class="slide__container swiper">
+            <div class="slide__content">
+                <div class="card__wrapper swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Continue reorganizando seus cards como desejado -->
+                </div>
+
+                <!-- Navegação do Swiper -->
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+
+                <!-- Paginação do Swiper -->
+                <div class="swiper-pagination" style="position: absolute; bottom: px;;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nome da categoria -->
+    <div class="categorie__dest">
+        <p class="categorie__text">Destaques</p>
+    </div>
+
+    <!-- Cards verdes de destaque -->
+    <section class="destaques__body">
+        <div class="slide__container__dest swiper">
+            <div class="slide__content__dest">
+                <div class="card__wrapper__dest swiper-wrapper">
+                    <div class="card__dest swiper-slide">
+                        <div class="image__content__dest">
+                            <span class="overlay"></span>
+
+                            <div class="card__image__dest">
+                                <img class="card__img__dest" src="books/sombra e ossos.png" alt="">
+                            </div>
+
+                            <div class="card__content__dest">
+                                <h2 class="book__name__dest">Sombra e Ossos</h2>
+                                <p class="description__dest">Em um mundo destruído pela guerra, a órfã Alina Starkov descobre que tem poderes extraordinários e vira alvo de forças sombrias.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__dest swiper-slide">
+                        <div class="image__content__dest">
+                            <span class="overlay"></span>
+
+                            <div class="card__image__dest">
+                                <img class="card__img__dest" src="books/sombra e ossos.png" alt="">
+                            </div>
+
+                            <div class="card__content__dest">
+                                <h2 class="book__name__dest">Sombra e Ossos</h2>
+                                <p class="description__dest">Em um mundo destruído pela guerra, a órfã Alina Starkov descobre que tem poderes extraordinários e vira alvo de forças sombrias.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card__dest swiper-slide">
+                        <div class="image__content__dest">
+                            <span class="overlay"></span>
+
+                            <div class="card__image__dest">
+                                <img class="card__img__dest" src="books/sombra e ossos.png" alt="">
+                            </div>
+
+                            <div class="card__content__dest">
+                                <h2 class="book__name__dest">Sombra e Ossos</h2>
+                                <p class="description__dest">Em um mundo destruído pela guerra, a órfã Alina Starkov descobre que tem poderes extraordinários e vira alvo de forças sombrias.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navegação do Swiper -->
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <!-- Paginação do Swiper -->
+                <div class="swiper-pagination" style="position: absolute; bottom: px;;"></div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Nome da categoria -->
+    <div class="categorie">
+        <p class="categorie__text">Romances em alta</p>
+    </div>
+
+    <!-- Cards de livros -->
+    <section class="card__body__second">
+        <div class="slide__container swiper">
+            <div class="slide__content">
+                <div class="card__wrapper swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Continue reorganizando seus cards como desejado -->
+                </div>
+
+                <!-- Navegação do Swiper -->
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+
+                <!-- Paginação do Swiper -->
+                <div class="swiper-pagination" style="position: absolute; bottom: px;;"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Nome da categoria -->
+    <div class="categorie">
+        <p class="categorie__text">Distopias interessantes</p>
+    </div>
+
+    <!-- Cards de livros -->
+    <section class="card__body__second">
+        <div class="slide__container swiper">
+            <div class="slide__content">
+                <div class="card__wrapper swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide custom-slide">
+                        <div class="image__content">
+                            <span class="coverlay"></span>
+                            <div class="card__image">
+                                <a href="#">
+                                    <img class="card__img" src="books/book2hbg-title-9780751576108-11.webp" alt="">
+                                </a>
+                            </div>
+                            <a class="book__link" href="#">
+                                <h2 class="book__name">Harry Potter</h2>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Continue reorganizando seus cards como desejado -->
+                </div>
+
+                <!-- Navegação do Swiper -->
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+
+                <!-- Paginação do Swiper -->
+                <div class="swiper-pagination" style="position: absolute; bottom: px;;"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="content__type__more">
+        <button class="content__type__text__more">Mais opções</button>
+    </section>
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+    <script src="js/scriptDestaq.js"></script>
+
+
+</body>
+</html>

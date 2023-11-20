@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --cor-de-fundo:#F0EBE3;
+    --cor-header: #E4DCCF;;
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde-destaque: #7D9D9C;
+    --verde-destaque-hover: #7d9d9c9a;
+    --fonte-principal:'Poppins', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--cor-header);
+    height: 50px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.20);
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__container {
+    padding: 1em;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2em;
+}
+
+.header__container, img {
+    margin-right: 5px; 
+}
+
+.header__logo__img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer; 
+}
+
+.search__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.search__bar__input {
+    width: 318px;
+    height: 43px;
+    border-radius: 30px;
+    background: var(--cor-header);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.search__bar__input::placeholder {
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.content__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__type__text {
+    border: 1px solid var(--preto);
+    border-radius: 30px;
+    background-color: transparent;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.content__type__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.content__type__text__more {
+    border: 1px solid var(--preto);
+    border-radius: 30px;
+    background-color: transparent;
+    width: 140px;
+    height: 45px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.content__type__text__more:hover {
+    background-color: var(--verde-destaque-hover);
+}
+
+.content__type__text:hover {
+    background-color: var(--verde-destaque-hover);
+}
+
+.categorie {
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body, .card__body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card__body {
+    position: relative;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: -50px; /* Adicione margem no topo para aproximar da div .categorie */
+}
+
+.categorie {
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categorie__dest {
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -15px;
+}
+
+.card__body__second {
+    position: relative;
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: -50px; /* Adicione margem no topo para aproximar da div .categorie */
+}
+
+.slide__container {
+    max-width: 1420px;
+    width: 100%;
+}
+
+.slide__content {
+    margin: 0 40px;
+    
+}
+
+.image__content, .card__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 14px;
+}
+
+.card {
+    width: 320px;
+    background-color: var(--cor-header);
+    border-radius: 5%;
+    width: 150px;
+    height: 240px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card__image {
+    position: relative;
+    width: 145px;
+    height: 190px;
+    border-radius: 0%;
+    transition: 0.3s ease;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card__image:hover {
+    padding: 2px;
+    transition: 0.3s;
+}
+
+.card__image .card__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.book__name {
+    font-size: 10px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.card , .swiper-slide {
+    width: 100%;
+}
+
+.slide__content, .swiper {
+    margin: 0;
+    padding: 5px;
+}
+
+.slide__container, .swiper {
+    padding: 40px 0;
+}
+
+.swiper-pagination {
+    text-align: center; /* Alinha os bullets horizontalmente */
+    width: 100%; /* Garante que a largura ocupe todo o contêiner */
+
+}
+  
+  .swiper-pagination .swiper-pagination-bullet {
+    display: inline-block; /* Garante que os bullets fiquem em linha */
+    margin: 0 5px; /* Espaçamento entre bullets */
+    width: 8px; /* Largura dos bullets */
+    height: 8px; /* Altura dos bullets */
+    border-radius: 50%; /* Torna os bullets redondos */
+    background-color: var(--verde-destaque); /* Cor dos bullets */
+  }
+  
+
+.book__link {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.book__name {
+    text-decoration: none;
+    cursor: pointer; /* Mantém o cursor do mouse como padrão para links */
+}
+
+.book__name:hover {
+    color: rgba(54, 54, 54, 0.522)
+}
+
+
+
+.destaques__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 15px;
+    margin-top: -25px; /* Adicione margem no topo para aproximar da div .categorie */
+    
+}
+
+.slide__container__dest {
+    max-width: 1120px;
+    width: 100%;
+}
+
+.card__dest {
+    border-radius: 15px;
+    background-color: var(--verde-destaque); 
+    height: 200px;
+    width: 360px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   
+}
+
+.card__image__dest {
+    position: relative;
+    height: 140px;
+    width: 110px;
+    border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card__image__dest  .card__img__dest {
+    height: 140px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image__content__dest {
+    padding: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.card__content__dest {
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;
+}
+
+.book__name__dest {
+    margin-top: 10px;
+}
+
+.description__dest {
+    position: relative;
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
