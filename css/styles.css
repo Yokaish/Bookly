@@ -295,7 +295,7 @@ body, .card__body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 15px;
+    
     margin-top: -25px; /* Adicione margem no topo para aproximar da div .categorie */
     
 }
@@ -303,13 +303,16 @@ body, .card__body {
 .slide__container__dest {
     max-width: 1120px;
     width: 100%;
+    margin: 0 2px;
 }
+
+  
 
 .card__dest {
     border-radius: 15px;
     background-color: var(--verde-destaque); 
     height: 200px;
-    width: 360px;
+    width: 340px;
     max-width: 100%;
     display: flex;
     justify-content: center;
