@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+    --cor-de-fundo:#F0EBE3;
+    --cor-header: #E4DCCF;;
+    --branco: #ffffff;
+    --preto: #000000;
+    --verde-destaque: #7D9D9C;
+    --verde-destaque-hover: #7d9d9c9a;
+    --fonte-principal:'Poppins', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/TELA\ DE\ CRIAÇÃO\ DE\ CONTA\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--fonte-principal);
+    height: 100%;
+}
+
+.header {
+    margin: 2px 2px;
+}
+
+.criar__conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    font-size: 30px;
+}
+
+.logo__create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+    margin-top: 75px;
+}
+
+.login {
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.search__bar__input__user {
+    width: 293px;
+    height: 50px;    
+    border-radius: 30px;
+    background: var(--cor-header);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.search__bar__input__user::placeholder {
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    margin-left: -30px;
+    width: 74%;
+    background: url('../assets/image\ 5.png');
+    background-repeat: no-repeat;
+    background-position: 25px;
+}
+
+.search__bar__input__password {
+    width: 293px;
+    height: 50px;    
+    border-radius: 30px;
+    background: var(--cor-header);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.search__bar__input__password::placeholder {
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    margin-left: -30px;
+    width: 50%;
+    background: url('../assets/image\ 6.png');
+    background-repeat: no-repeat;
+    background-position: 28px;
+}
+
+.search__bar__input__email {
+    width: 293px;
+    height: 50px;    
+    border-radius: 30px;
+    background: var(--cor-header);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.search__bar__input__email::placeholder {
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    margin-left: -30px;
+    width: 50%;
+    background: url('../assets/image\ 9.png');
+    background-repeat: no-repeat;
+    background-position: 28px;
+}
+
+.search__bar__input__telephone {
+    width: 293px;
+    height: 50px;    
+    border-radius: 30px;
+    background: var(--cor-header);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+}
+
+.search__bar__input__telephone::placeholder {
+    color: var(--preto);
+    display: flex;
+    text-align: center;
+    margin-left: -30px;
+    width: 54%;
+    background: url('../assets/image\ 10.png');
+    background-repeat: no-repeat;
+    background-position: 28px;
+}
+
+.login__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login__button__click {
+    margin-top: 35px;
+    width: 233px;
+    height: 47px;
+    border-radius: 30px;
+    background: #7D9D9C;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+}
+
