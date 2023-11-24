@@ -19,6 +19,7 @@ body {
     background-image: url('../assets/backgroundlogin.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: var(--fonte-principal);
     height: 100%;
 }
