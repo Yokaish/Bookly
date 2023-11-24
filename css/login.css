@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url('/assets/TELA\ DE\ LOGIN.png');
+    background-image: url('/assets/backgroundlogin.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--fonte-principal);
