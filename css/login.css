@@ -69,7 +69,8 @@ body {
     text-align: center;
     margin-left: -30px;
     width: 74%;
-    background: url('/assets/image\ 5.png') no-repeat;
+    background: url('/assets/image\ 5.png');
+    background-repeat: no-repeat;
     background-position: 25px;
 }
 
@@ -90,7 +91,8 @@ body {
     text-align: center;
     margin-left: -30px;
     width: 50%;
-    background: url('/assets/image\ 6.png') no-repeat;
+    background: url('/assets/image\ 6.png');
+    background-repeat: no-repeat;
     background-position: 28px;
 }
 
