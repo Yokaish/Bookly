@@ -34,6 +34,7 @@ body {
     align-items: center;
     margin-top: -1px;
     font-size: 26px;
+    padding: 4px;
 }
 
 .logo__create {
