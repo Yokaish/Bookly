@@ -7,6 +7,7 @@
     --preto: #000000;
     --verde-destaque: #7D9D9C;
     --verde-destaque-hover: #7d9d9c9a;
+    --verde-destaque-hover-botao: #576f72;;
     --fonte-principal:'Poppins', sans-serif;
 
 }
@@ -164,5 +165,19 @@ body {
     font-weight: 500;
     font-family: var(--fonte-principal);
     color: var(--preto);
+}
+
+.login__button__click:hover {
+    background-color: var(--verde-destaque-hover-botao);
+}
+
+input {
+    text-indent: 25px; /* Adiciona um recuo de 10 pixels à esquerda do texto */
+}
+
+
+
+input:focus {
+    outline: none;
 }
 

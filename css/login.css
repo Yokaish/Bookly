@@ -7,6 +7,7 @@
     --preto: #000000;
     --verde-destaque: #7D9D9C;
     --verde-destaque-hover: #7d9d9c9a;
+    --verde-destaque-hover-botao: #576f72;;
     --fonte-principal:'Poppins', sans-serif;
 
 }
@@ -29,7 +30,11 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 100px;
+    margin: 90px;
+}
+
+.logo__text {
+    margin-top: -5px;
 }
 
 .login__img {
@@ -42,7 +47,7 @@ body {
 }
 
 .login {
-    margin-top: -80px;
+    margin-top: -60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +132,10 @@ body {
     color: var(--preto);
 }
 
+.login__button__click:hover {
+    background-color: var(--verde-destaque-hover-botao);
+}
+
 .create {
     display: flex;
     justify-content: center;
@@ -138,4 +147,12 @@ body {
     text-decoration: none;
     color: var(--preto);
     margin-left: 2px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input {
+    text-indent: 25px; /* Adiciona um recuo de 10 pixels à esquerda do texto */
 }
