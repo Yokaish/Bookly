@@ -423,8 +423,7 @@ button:focus {
 }
 
 .icon:hover {
-    background-color: var(--verde-destaque-hover);
-    border-radius: 20px;
+    padding: 1px;
     height: 24px;
     width: 24px;
     transition: 0.3s;
