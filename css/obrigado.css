@@ -83,3 +83,19 @@ body {
 .login__button__click:hover {
     background-color: var(--verde-destaque-hover-botao);
 }
+
+*:focus {
+    outline: none;
+    -webkit-tap-highlight-color: transparent; /* Para alguns navegadores móveis */
+}
+
+/* Remover a borda azul em botões ativos ou em foco */
+button:focus {
+    outline: none;
+}
+
+/* Tentar desativar o tap-highlight-color */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Tornar transparente */
+    -webkit-tap-highlight-color: transparent; /* Para alguns navegadores */
+}
