@@ -62,6 +62,12 @@ body {
     width: 50px;
     margin-right: 10px;
     cursor: pointer; 
+    transition: 0.3s ease;
+}
+
+.header__logo__img:hover {
+    padding: 2px;
+    transition: 0.3s;
 }
 
 .search__bar {
@@ -410,6 +416,11 @@ button:focus {
 * {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Tornar transparente */
     -webkit-tap-highlight-color: transparent; /* Para alguns navegadores */
+}
+
+.icon:hover {
+    background-color: var(--verde-destaque-hover);
+    border-radius: 20px;
 }
 
 
