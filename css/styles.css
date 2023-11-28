@@ -263,6 +263,7 @@ body, .card__body {
 
 .book__name {
     font-size: 10px;
+    text-align: center;
 }
 
 .swiper-button-prev, .swiper-button-next {
