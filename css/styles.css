@@ -400,7 +400,9 @@ button:focus {
     outline: none;
 } 
 
-
+a:focus {
+    outline: none;
+}
 
 
 
