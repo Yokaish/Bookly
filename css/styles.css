@@ -418,9 +418,14 @@ button:focus {
     -webkit-tap-highlight-color: transparent; /* Para alguns navegadores */
 }
 
+
+
 .icon:hover {
     background-color: var(--verde-destaque-hover);
     border-radius: 20px;
+    height: 22px;
+    width: 22px;
+    transition: 0.3s;
 }
 
 
