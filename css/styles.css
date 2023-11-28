@@ -396,6 +396,12 @@ input[type="search"] {
     text-indent: 15px;
 }
 
+button:focus {
+    outline: none;
+} 
+
+
+
 
 
 
